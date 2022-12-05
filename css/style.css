@@ -10,7 +10,7 @@ header > .container {
 }
 
 .container * {
-    border: 2px dashed black;
+    border: 3px dashed black;
     padding: 5px 0;
 }
 
@@ -41,21 +41,20 @@ main > section {
     background-color: #00008B;
 }
 
-.first.section > .box {
+.first.section  .box {
     width: 800px;
     height: 400px;
     background-color: #EE82EE;
-    border: 2px dashed black;
     margin: 0 auto;
 }
 
-.blue-col {
+main .blue-col {
     background-color: #1E90FF;
     width: 60%;
     height: 500px;
 }
 
-.pink-col {
+main .pink-col {
     background-color: #FFC0CB;
     width: 40%;
     height: 500px;
@@ -73,13 +72,49 @@ main > section {
     width: 100%;
     background-color: #228B22;
     height: 800px;
-    border: 2px dashed black;
 }
 
 /* Footer */
 
 footer {
     background-color: #23272A;
+    padding: 30px 0 0 0;
 }
+
+footer .pink-col {
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: #F08080;
+}
+
+footer .lightblue-col {
+    width: 25%;
+    height: 500px;
+    background-color: #20B2AA;
+    border: 3px dashed white;
+}
+
+.first.footer-section {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.second.footer-section .box {
+    background-color: #7FFFD4;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second.footer-section .text {
+    background-color: #FFB6C0;
+    align-content: center;
+    height: 30px;
+}
+
+
 
 
