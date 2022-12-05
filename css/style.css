@@ -1,0 +1,65 @@
+/* Header */
+
+header {
+    background-color: #ADD8E6;
+    padding: 15px 0;
+}
+
+header > .container {
+    background-color: #DAA520;
+    display: flex;
+}
+
+.container * {
+    border: 2px dashed black;
+    padding: 5px 0;
+}
+
+.logo {
+    width: 300px;
+    padding-left: 5px;
+}
+
+.container > nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    padding-right: 5px;
+}
+
+/* Sections */
+
+main > section {
+    padding: 20px 0;
+}
+
+.first.section {
+    background-color: #00008B;
+}
+
+.first.section > .box {
+    width: 800px;
+    height: 400px;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+.col {
+    
+}
+
+.left.col {
+    background-color: #1E90FF;
+}
+
+.right.col {
+    background-color: #FFC0CB;
+}
+
+
