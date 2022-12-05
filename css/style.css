@@ -1,3 +1,14 @@
+/* Generics */
+
+.container {
+    display: flex;
+}
+
+.container * {
+    border: 3px dashed black;
+    padding: 5px 0;
+}
+
 /* Header */
 
 header {
@@ -9,12 +20,7 @@ header > .container {
     background-color: #DAA520;
 }
 
-.container * {
-    border: 3px dashed black;
-    padding: 5px 0;
-}
-
-.logo {
+.logo-header {
     width: 300px;
     padding-left: 5px;
 }
@@ -31,11 +37,13 @@ header > .container {
     padding-right: 5px;
 }
 
-/* Sections */
+/* Main */
 
 main > section {
     padding: 30px 0;
 }
+
+/* Main - First Section */
 
 .first.section {
     background-color: #00008B;
@@ -47,6 +55,8 @@ main > section {
     background-color: #EE82EE;
     margin: 0 auto;
 }
+
+/* Main - Second Section */
 
 main .blue-col {
     background-color: #1E90FF;
@@ -60,9 +70,13 @@ main .pink-col {
     height: 500px;
 }
 
+/* Main - Third Section */
+
 .third.section {
 	background-color: #D3D3D3;
 }
+
+/* Main - Fifth Section */
 
 .fifth.section {
     background-color: #D3D3D3;
@@ -80,6 +94,8 @@ footer {
     background-color: #23272A;
     padding: 10px 0 0 0;
 }
+
+/* Footer - First Section */
 
 footer .left-col {
     width: calc(100% / 3);
@@ -105,6 +121,8 @@ footer .right-col {
     border-bottom: 2px solid #D3D3D3;
 }
 
+/* Footer - Second Section */
+
 .second.footer-section .box {
     background-color: #7FFFD4;
     width: 100%;
@@ -116,7 +134,8 @@ footer .right-col {
     align-items: center;
 }
 
-.second.footer-section .text {
+.second.footer-section .logo-footer,
+.second.footer-section .button {
     background-color: #FFB6C0;
     padding: 5px;
 }
