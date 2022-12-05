@@ -107,12 +107,13 @@ footer .lightblue-col {
     border: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .second.footer-section .text {
     background-color: #FFB6C0;
-    align-content: center;
     height: 30px;
+    padding: 5px;
 }
 
 
